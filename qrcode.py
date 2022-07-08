@@ -4,7 +4,7 @@ import sys, pyqrcode, png
 
 def qrcode(name, url):
     qr_code = pyqrcode.create(url);
-    qr_code.png("/Users/juan/Downloads/" + name + ".png", scale = 5)
+    qr_code.png("/Users/USERNAME/Downloads/" + name + ".png", scale = 5)
 
 if __name__ == '__main__':
     try:
