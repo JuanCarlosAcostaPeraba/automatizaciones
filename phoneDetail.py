@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import sys, phonenumbers
+import sys, phonenumbers # pip install phonenumbers
 from phonenumbers import carrier, geocoder, timezone
 
 def phone_study(phone_number):

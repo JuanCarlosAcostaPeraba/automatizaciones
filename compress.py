@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from PIL import Image # python3 -m pip install Pillow
+from PIL import Image # pip install Pillow
 
 import os
 

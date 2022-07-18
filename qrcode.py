@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import sys, pyqrcode, png
+import sys, pyqrcode, png # pip install PyQRCode | pip install pypng
 
 def qrcode(name, url):
     qr_code = pyqrcode.create(url);
